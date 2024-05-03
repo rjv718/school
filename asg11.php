@@ -1,6 +1,3 @@
-<!-- Assignment-10 – COSC 2328 – Professor McCurry -->
-<!-- Implemented by - Robert Vera -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +10,7 @@
 $message = '';
 try {
     // Connect to the database
-    $pdo = new PDO('mysql:host=localhost;dbname=final24', 'root', 'Bertaroni718');
+    $pdo = new PDO('mysql:host=localhost;dbname=final24', 'myusername', 'mypassword');
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     // Check if form data has been submitted
